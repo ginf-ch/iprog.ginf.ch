@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero.is-primary {
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)
+    ), url('../images/yulia-khlebnikova-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-footer {
+    margin-top: auto;
+}
+
+.is-fullheight-100vh {
+    height: 100vh;
+}
